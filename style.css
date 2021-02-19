@@ -1,0 +1,38 @@
+body{
+    margin-top: 5px;
+}
+header{
+    text-align:center;
+    font-weight:thin;
+    font-size: 1.6em;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    margin: 1px 0px;
+  }
+  section header{
+      text-align: left;
+  }
+ 
+  .nav-link:hover {
+    background-color: rgb(116, 116, 116)!important;
+    color:white!important;
+}
+.nav-link{
+    text-decoration: none;
+    color: black!important;
+}
+#navbar{
+    position: fixed;
+    height: 100%;
+}
+@media only screen and (max-width: 992px) {
+   #navbar{
+       position: relative;
+       text-align: center;
+   }
+}
+#example code{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
